@@ -1,6 +1,7 @@
 1) Installation 
 
 npm istall
+
 2) Gatsby cli:
 
 Gatsby develop
