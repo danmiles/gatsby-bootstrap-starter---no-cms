@@ -1,0 +1,44 @@
+{
+    "name": "Gatsby starter - No cms",
+    "private": false,
+    "description": "Site developing",
+    "version": "1.0.1",
+    "author": "Denis Rusanov",
+    "dependencies": {
+        "axios": "^1.2.3",
+        "babel-plugin-styled-components": "^2.0.7",
+        "gatsby": "^5.4.0",
+        "gatsby-image": "^3.11.0",
+        "gatsby-plugin-gatsby-cloud": "^5.4.0",
+        "gatsby-plugin-image": "^3.4.0",
+        "gatsby-plugin-manifest": "^5.4.0",
+        "gatsby-plugin-sharp": "^5.4.0",
+        "gatsby-plugin-sitemap": "^6.5.0",
+        "gatsby-plugin-styled-components": "^6.5.0",
+        "gatsby-source-filesystem": "^5.4.0",
+        "gatsby-transformer-remark": "^6.4.0",
+        "gatsby-transformer-sharp": "^5.4.0",
+        "prop-types": "^15.8.1",
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0",
+        "react-helmet": "^6.1.0",
+        "react-icons": "^4.7.1",
+        "react-multi-carousel": "^2.8.2",
+        "react-uuid": "^2.0.0",
+        "styled-components": "^5.3.6"
+    },
+    "keywords": [
+        "Gatsby starter",
+        "Bootstrap",
+        "Style components"
+    ],
+    "license": "0BSD",
+    "scripts": {
+        "build": "gatsby build",
+        "develop": "gatsby develop",
+        "start": "npm run develop",
+        "serve": "gatsby serve",
+        "clean": "gatsby clean",
+        "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+    }
+}

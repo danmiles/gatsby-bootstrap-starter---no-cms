@@ -1,0 +1,73 @@
+import * as React from 'react';
+
+export const onRenderBody = ({ setHeadComponents }) => {
+  setHeadComponents([
+    // Montserrat font
+    <link
+      rel="preload"
+      href="/fonts/montserrat-v25-cyrillic_latin-regular.woff2"
+      as="font"
+      type="font/woff2"
+      crossOrigin="anonymous"
+      key="roboto400"
+    />,
+    <link
+      rel="preload"
+      href="/fonts/montserrat-v25-cyrillic_latin-500.woff2"
+      as="font"
+      type="font/woff2"
+      crossOrigin="anonymous"
+      key="roboto500"
+    />,
+    <link
+      rel="preload"
+      href="/fonts/montserrat-v25-cyrillic_latin-700.woff2"
+      as="font"
+      type="font/woff2"
+      crossOrigin="anonymous"
+      key="roboto700"
+    />,
+    <link
+      rel="preload"
+      href="/fonts/montserrat-v25-cyrillic_latin-900.woff2"
+      as="font"
+      type="font/woff2"
+      crossOrigin="anonymous"
+      key="roboto900"
+    />,
+
+    // Roboto font
+    <link
+      rel="preload"
+      href="/fonts/roboto-v30-cyrillic_latin-regular.woff2"
+      as="font"
+      type="font/woff2"
+      crossOrigin="anonymous"
+      key="roboto400"
+    />,
+    <link
+      rel="preload"
+      href="/fonts/roboto-v30-cyrillic_latin-500.woff2"
+      as="font"
+      type="font/woff2"
+      crossOrigin="anonymous"
+      key="roboto500"
+    />,
+    <link
+      rel="preload"
+      href="/fonts/roboto-v30-cyrillic_latin-700.woff2"
+      as="font"
+      type="font/woff2"
+      crossOrigin="anonymous"
+      key="roboto700"
+    />,
+    <link
+      rel="preload"
+      href="/fonts/roboto-v30-cyrillic_latin-900.woff2"
+      as="font"
+      type="font/woff2"
+      crossOrigin="anonymous"
+      key="roboto900"
+    />,
+  ]);
+};
