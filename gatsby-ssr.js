@@ -9,7 +9,7 @@ export const onRenderBody = ({ setHeadComponents }) => {
       as="font"
       type="font/woff2"
       crossOrigin="anonymous"
-      key="roboto400"
+      key="montserrat400"
     />,
     <link
       rel="preload"
@@ -17,7 +17,7 @@ export const onRenderBody = ({ setHeadComponents }) => {
       as="font"
       type="font/woff2"
       crossOrigin="anonymous"
-      key="roboto500"
+      key="montserrat500"
     />,
     <link
       rel="preload"
@@ -25,7 +25,7 @@ export const onRenderBody = ({ setHeadComponents }) => {
       as="font"
       type="font/woff2"
       crossOrigin="anonymous"
-      key="roboto700"
+      key="montserrat700"
     />,
     <link
       rel="preload"
@@ -33,7 +33,7 @@ export const onRenderBody = ({ setHeadComponents }) => {
       as="font"
       type="font/woff2"
       crossOrigin="anonymous"
-      key="roboto900"
+      key="montserrat900"
     />,
 
     // Roboto font
