@@ -8,7 +8,7 @@ module.exports = {
     author: `Denis Rusanov`,
     mail: `web@portfolio-denis.com`,
     phone: `+33 01 02 03 04 05`,
-    siteUrl: `https://your-site-url.com`,
+    siteUrl: `https://gatsby-bootstrap-starter-no-cms.vercel.app/`,
   },
   plugins: [
     {
